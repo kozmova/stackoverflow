@@ -7,7 +7,7 @@ import org.apache.spark.rdd.RDD
 import annotation.tailrec
 import scala.reflect.ClassTag
 
-/** A raw stackoverflow posting, either a question or an answer */
+/** A raw stackoverflow posting, either a question or an answer  test*/
 case class Posting(postingType: Int, id: Int, acceptedAnswer: Option[Int], parentId: Option[QID], score: Int, tags: Option[String]) extends Serializable
 
 
